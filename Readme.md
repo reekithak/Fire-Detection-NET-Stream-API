@@ -22,6 +22,8 @@ Clone this Repository [Tutorial](https://www.youtube.com/watch?v=O72FWNeO-xY)
 
 ### Step 3:
 From the root folder of the repository, open a commandline terminal/powershell and run the following commands:<br />
+
+
 `pip install virtualenv` :- Installs Virtualenv Python Module<br />
 `virtualenv ANY_NAME` :- Replace ANY_NAME with your choice of environment name<br />
 `.\ANY_NAME\Scripts\activate` :- Activates the Virtual Environment we just created<br />
