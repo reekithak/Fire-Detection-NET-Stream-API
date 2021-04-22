@@ -50,6 +50,6 @@ Once all the Above is Completed , Lets run our Application. There are Certain pa
 '--name'        =>'save results to project/name')<br />
 '--exist-ok'    =>'existing project/name ok, do not increment'<br />
 
-To Generally run the Application with a confidence of 30% via WebCam use this command from the root of the Repository
+To Generally run the Application with a confidence of 30% via WebCam use this command from the root of the Repository<br />
 `python detect.py --weights best.pt --img 412 --conf 0.3 --source 0`
 
