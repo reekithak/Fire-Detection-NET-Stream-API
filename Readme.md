@@ -9,3 +9,7 @@ The application hasn't been deployed to any servers, considering the cost applic
 
 
 ## Run the Application in your own Device ?
+
+### Step 1:
+Install [Python 3.7](https://www.python.org/downloads/release/python-370/)  
+Don't forget to add Path o Environment Varibales [Doubt?](https://www.educative.io/edpresso/how-to-add-python-to-path-variable-in-windows)
