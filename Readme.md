@@ -13,3 +13,14 @@ The application hasn't been deployed to any servers, considering the cost applic
 ### Step 1:
 Install [Python 3.7](https://www.python.org/downloads/release/python-370/)  
 Don't forget to add Path o Environment Varibales [Doubt?](https://www.educative.io/edpresso/how-to-add-python-to-path-variable-in-windows)
+
+Completely Optional:
+Install [Git](https://git-scm.com/downloads)
+
+### Step 2:
+Clone this Repository [Tutorial](https://www.youtube.com/watch?v=O72FWNeO-xY)
+
+### Step 3:
+From the root folder of the repository, open a commandline terminal/powershell and run `pip install -r requirements.txt`
+
+
