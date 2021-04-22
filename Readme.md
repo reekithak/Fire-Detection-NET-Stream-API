@@ -21,34 +21,34 @@ Install [Git](https://git-scm.com/downloads)
 Clone this Repository [Tutorial](https://www.youtube.com/watch?v=O72FWNeO-xY)
 
 ### Step 3:
-From the root folder of the repository, open a commandline terminal/powershell and run the following commands:
-`pip install virtualenv` :- Installs Virtualenv Python Module
-`virtualenv ANY_NAME` :- Replace ANY_NAME with your choice of environment name
-`.\ANY_NAME\Scripts\activate` :- Activates the Virtual Environment we just created
-`pip install -r requirements.txt` :- Installs the Required Liraries , Takes time & Needs Space ("A lot")
+From the root folder of the repository, open a commandline terminal/powershell and run the following commands:<br />
+`pip install virtualenv` :- Installs Virtualenv Python Module<br />
+`virtualenv ANY_NAME` :- Replace ANY_NAME with your choice of environment name<br />
+`.\ANY_NAME\Scripts\activate` :- Activates the Virtual Environment we just created<br />
+`pip install -r requirements.txt` :- Installs the Required Liraries , Takes time & Needs Space ("A lot")<br />
 
 ### Step 4:
 Once all the Above is Completed , Lets run our Application. There are Certain parameters to consider.
 
 
-'--weights'     => 'model.pt path(s)'
-'--source'      =>'# file/folder, 0 for webcam
-'--img'         =>'inference size (pixels)'
-'--conf'        =>'object confidence threshold'
-'--iou'         =>'IOU threshold for NMS'
-'--device'      =>'cuda device, i.e. 0 or 0,1,2,3 or cpu'
-'--view-img'    =>'display results'
-'--save-txt'    =>'save results to *.txt'
-'--save-conf'   =>'save confidences in --save-txt labels'
-'--save-crop'   =>'save cropped prediction boxes'
-'--nosave',     =>'do not save images/videos'
-'--classes'     =>'filter by class: --class 0, or --class 0 2 3'
-'--agnostic-nms'=>'class-agnostic NMS'
-'--augment'     =>'augmented inference'
-'--update'      =>'update all models'
-'--project'     =>'save results to project/name'
-'--name'        =>'save results to project/name')
-'--exist-ok'    =>'existing project/name ok, do not increment'
+'--weights'     => 'model.pt path(s)'<br />
+'--source'      =>'# file/folder, 0 for webcam<br />
+'--img'         =>'inference size (pixels)'<br />
+'--conf'        =>'object confidence threshold'<br />
+'--iou'         =>'IOU threshold for NMS'<br />
+'--device'      =>'cuda device, i.e. 0 or 0,1,2,3 or cpu'<br />
+'--view-img'    =>'display results'<br />
+'--save-txt'    =>'save results to *.txt'<br />
+'--save-conf'   =>'save confidences in --save-txt labels'<br />
+'--save-crop'   =>'save cropped prediction boxes'<br />
+'--nosave',     =>'do not save images/videos'<br />
+'--classes'     =>'filter by class: --class 0, or --class 0 2 3'<br />
+'--agnostic-nms'=>'class-agnostic NMS'<br />
+'--augment'     =>'augmented inference'<br />
+'--update'      =>'update all models'<br />
+'--project'     =>'save results to project/name'<br />
+'--name'        =>'save results to project/name')<br />
+'--exist-ok'    =>'existing project/name ok, do not increment'<br />
 
 To Generally run the Application with a confidence of 30% via WebCam use this command from the root of the Repository
 `python detect.py --weights best.pt --img 412 --conf 0.3 --source 0`
