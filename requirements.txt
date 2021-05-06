@@ -1,6 +1,6 @@
-torchvision
+torchvision 
 opencv-contrib-python
-pandas
+pandas 
 requests
 tqdm
 pyyaml
