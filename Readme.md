@@ -22,6 +22,9 @@ In this repo, there's everything you need to test run your webcam or any suitabl
 
 The application hasn't been deployed to any servers, considering the cost applicable,Size of SLUG (Therefore can't deploy to free services) and also since its an easy-go, anybody with some basic-flask experience can deploy it if needed.
 
+## Flash-Demo?
+https://user-images.githubusercontent.com/42499275/125557012-23727ccc-c2a2-43d8-9bf5-88807591d15f.mp4
+
 
 ## Run the Application in your own Device ?
 
