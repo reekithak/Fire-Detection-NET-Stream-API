@@ -4,12 +4,21 @@
 
 I've used a Custom Built Dataset with anotations, here the model will be able to recognize household as well as forest fire scenarios.
 The project has its limitations when it comes to Accuracy, due to lack of computational resources. This was a project build to learn and understand the Working of Object-Detection Models.
+
 <img src="https://github.com/reekithak/Fire-Detection-NET-Stream-API/blob/master/images/fire.png">
 
 ## Architecture Used
 The Project is Implemented in a Different Repo , where the actual training and process holds. The Complex Yolo Architecture defines the entire model which is used to train a custom augmented dataset for "Fire & Smoke" Detection.
 
-And in this repo, there's everything you need to test run your webcam or any suitable devices ( After Implementing ).
+<img src="https://github.com/reekithak/Fire-Detection-NET-Stream-API/blob/master/images/yolo.png">
+
+### Yolo WorkFlow
+
+<img src="https://github.com/reekithak/Fire-Detection-NET-Stream-API/blob/master/images/yolowork.png">
+
+## This Repo?
+
+In this repo, there's everything you need to test run your webcam or any suitable devices ( After Implementing ).
 
 The application hasn't been deployed to any servers, considering the cost applicable,Size of SLUG (Therefore can't deploy to free services) and also since its an easy-go, anybody with some basic-flask experience can deploy it if needed.
 
